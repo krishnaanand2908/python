@@ -1,5 +1,3 @@
-from tkinter.messagebox import NO
-
 
 name = input("Your full name: ")
 
@@ -27,10 +25,10 @@ else:
 siblings = int(input("How many siblings do you have?"))
 
 if siblings == 0:
-    d = input("No problem. Can I be your sibling?[YES/NO]")
-    
+     d = input("No problem. Can I be your sibling?[YES/NO]")
+     
 else:
-    e = input("Nice, will you be my friend? [YES/NO]")
+    d = input("Nice, will you be my friend? [YES/NO]")
 
 if sex == 'M':
     print('Nice to meet you Mr.', name)
@@ -65,10 +63,10 @@ elif d == "NO":
 else:
     print("WHAT?")
     
-if e == "YES":
+if d == "YES":
     print("Hello my new friend. Am I your sibling? You knows this very well.")
     
-elif e == "NO":
+elif d == "NO":
     print("OKAY... BUt am I your sibling? I think you knows this... :(")
     
 else:
