@@ -18,13 +18,25 @@ if sex == 'M':
     if mrd == "M":
         print("Nice to meet you Mr.", name, ".")
         
+    else:
+        print("Nice to meet you respected", name, ".")
+        
 elif sex == 'F':
     if mrd == "M":
         print("Nice to meet you Mrs.", name, ".")
         
-if sex == 'F':
+    else:
+        print("Nice to meet you respected", name, ".")
+        
+elif sex == 'F':
     if mrd == "U":
         print("Nice to meet you Miss.", name, ".")
+        
+    else:
+        print("Nice to meet you respected", name, ".")
+        
+else:
+    print("I didn't understand your name.")
         
 print("It seems that you are", age, "years old.")
 
@@ -72,7 +84,7 @@ else:
     
 print("You are", bgroup, "and I am O+")
 
-print("I hope that you like me :)")     
+print("I HOPE YOU LIKE THIS SURVEY :)")     
 
         
 

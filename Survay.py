@@ -64,10 +64,10 @@ else:
     print("WHAT?")
     
 if d == "YES":
-    print("Hello my new friend. Am I your sibling? You knows this very well.")
+    print("Hello my new friend. Am I your sibling? You know this very well.")
     
 elif d == "NO":
-    print("OKAY... BUt am I your sibling? I think you knows this... :(")
+    print("OKAY... BUt am I your sibling? I think you know this... :(")
     
 else:
     print("WHAT!?")
